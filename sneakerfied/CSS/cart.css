@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(215, 241, 213);
+}
+
+/* cart text size */
+#cart-info{
+    font-size: larger;
+}
+section {
+    margin: 0 10px;
+    padding: 0 10px;
+    overflow: scroll;
+}
+
+.simple-linear {
+    background: linear-gradient(rgb(114, 236, 43), 35%, rgb(245, 241, 242));
+}
+/* product table and appearance */
+.row {
+    padding: 5px;
+    display: table-caption;
+    flex-direction: row;
+}
+
+.col-sm-6 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-sm-6 img {
+    width: 100%;
+    border-style: hidden;
+    box-shadow: black 0 0 10px;
+    overflow: hidden;
+}
+/* remove buttons */
+.col-sm-6 button {
+    font-size: large;
+}
+
+.col-sm-6 button:hover {
+    background-color: rgb(224, 241, 179);
+}

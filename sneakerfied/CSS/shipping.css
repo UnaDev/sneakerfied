@@ -1,0 +1,37 @@
+#cart-info{
+    font-size: larger;
+    
+}
+
+.simple-linear {
+    background: linear-gradient(rgb(120, 225, 243), 60%, rgb(245, 241, 242));
+}
+
+.shipping {
+    align-content: center;
+    color: black;
+    padding: 70px 100px 70px;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 0.5px solid black;
+    border-radius: 4px;
+    display: block;
+    font-size: 25px;
+}
+

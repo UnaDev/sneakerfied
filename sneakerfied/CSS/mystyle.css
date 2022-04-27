@@ -1,0 +1,187 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+ul :hover {
+    text-decoration: none;
+    color: rgb(15, 12, 5);
+}
+
+#cart-info{
+    font-size: larger;
+    
+}
+
+.simple-linear {
+    background: linear-gradient(rgb(220, 172, 241), 50%, rgb(245, 241, 242));
+}
+
+/* header section */
+header {
+    background-color: black;
+    background-image: url("../images/neon nike.jpg");
+    background-size: contain;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.range1 {
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.features {
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+
+}
+
+.features figure img {
+    border: 1px solid pink;
+    box-shadow: black 0 0 10px;
+    border-radius: 50%;
+    transform: 0.5s;
+}
+
+section {
+    color: black;
+    padding: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+
+}
+/* footer section */
+footer div {
+    text-align: center;
+}
+
+.row {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    background-color: rgb(245, 219, 223);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.col-4 img {
+    width: 100%;
+    border-style: hidden;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    padding: 60px 60px;
+    font-size: 15px;
+
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+}
+
+footer div {
+    text-align: center;
+}
+
+.products {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 50px;
+    padding-top: 20px;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+.testi {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.testi .col-3 {
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: rgb(61, 60, 60) 0 0 5px 0;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.testi .col-3 img {
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    filter: opacity(0.9);
+}
+
+img {
+    padding: 1px;
+}
+
+.addToCart {
+    float: right;
+    background-color: transparent;
+    border-radius: 20px;
+    color: whitesmoke;
+    outline: none;
+    
+}
+

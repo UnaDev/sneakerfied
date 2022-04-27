@@ -1,0 +1,32 @@
+        #cart-info{
+            font-size: larger;
+            
+        }
+        
+        .simple-linear {
+            background: linear-gradient(rgb(245, 242, 106), 70%, rgb(245, 241, 242));
+        }
+
+        img {
+            width: 600px;
+            padding-right: 20px;
+            border: hidden;
+            filter: opacity(0.8);
+        }
+
+        #about {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 100px;
+            align-content: center;
+        }
+
+        .join {
+            padding-top: 170px;
+
+        }
+
+        .form {
+            line-height: 40px;
+            font-family: arial;
+        }
